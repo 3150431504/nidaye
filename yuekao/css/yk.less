@@ -1,0 +1,240 @@
+@import url(reset.css);
+.whb(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+.box(@dir:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+html,body,.box{
+    .whb(100%,100%,0);
+}
+html{
+    font-size: 62.5%;
+}
+.r{
+    position: relative;
+}
+.a{
+    position: absolute;
+}
+.f(@f){
+    float: @f;
+}
+.wrap{
+    .box;
+    header{
+        .whb(100%,5.2rem,#fbfbfb);
+        padding: 0 1.4rem;
+        input{
+            .whb(100%,3.8rem,#fff);
+            margin-top: 0.8rem;
+            .r;
+            padding-left: 3.8rem;
+            border: 0.1rem solid #d5d5d5;
+            text-align: center;
+        }
+        img{
+            .whb(1.6rem,auto,0);
+        }
+        .left{
+            .a;
+            left: 2.6rem;
+            top: 1.9rem;
+        }
+        .right{
+            .a;
+            right: 2.6rem;
+            top: 1.9rem;
+            img{
+                .whb(1.8rem,auto,0);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        overflow: auto;
+        .top{
+            .whb(100%,15.2rem,#1e95f3);
+            padding: 0 1rem;
+            .box(horizontal);
+            color: #fff;
+            .left{
+                .whb(9.4rem,100%,0);
+                h1{
+                    font-size: 1.6rem;
+                    margin-top: 1.6rem;
+                }
+                dl{
+                    margin-top: 2rem;
+                    dt{
+                        img{
+                            .whb(5.4rem,auto,0);
+                        }
+                    }
+                    dd{
+                        .r;
+                        margin-top: 2rem;
+                        .whb(100%,2rem,#49abf6);
+                        line-height: 2rem;
+                        img{
+                            .whb(1.4rem,auto,0);
+                            .a;
+                            top: 0.4rem;
+                            left: 0.4rem;
+                        }
+                        b{
+                            font-weight: normal;
+                            margin-left: 2.4rem;
+                            font-size: 1.4rem;
+                        }
+                    }
+                }
+            }
+            .right{
+                -webkit-box-flex: 1;
+                margin-left: 0.8rem;
+                h2{
+                    .whb(100%,1.8rem,0);
+                    margin-top: 1.6rem;
+                    b{
+                        .f(right);  
+                        font-weight: normal;
+                        font-size: 1.8rem;
+                    } 
+                }
+                h1{
+                    .whb(100%,2rem,0);
+                    font-family: "微软雅黑";
+                    b{
+                        .f(right);  
+                        font-weight: normal;
+                        font-size: 2rem;
+                    } 
+                }
+                h3{
+                    .whb(100%,auto,0);
+                    font-family: "微软雅黑";
+                    line-height: 2.4rem;
+                    .r;
+                    .one{
+                        .a;
+                        right: 0;
+                    }
+                    b{
+                        .f(right);  
+                        font-weight: normal;
+                        font-size: 1.4rem;
+                    } 
+                }
+                p{
+                    .whb(100%,2rem,#49abf6);
+                    .f(right);
+                    margin-top: 2.6rem;
+                    line-height: 2rem;
+                    padding: 0 0.2rem;
+                    .r;
+                    img{
+                        .whb(1.4rem,auto,0);
+                        .a;
+                        top: 0.4rem;
+                    }
+                    b{
+                        font-weight: normal;
+                        margin-left: 1.4rem;
+                    }
+                }
+            }
+        }
+        .cont{
+            .whb(100%,auto,0);
+            h1{
+                .whb(100%,4rem,0);
+                padding: 0 0.7rem 0 1.4rem;
+                line-height: 4rem;
+                font-size: 1.4rem;
+                border-bottom: 0.2rem solid #ebf4fb;
+                button{
+                    .whb(7.2rem,2.4rem,0);
+                    border: 0.1rem solid #8fc4f0;
+                    color: #70a8d9;
+                    .f(right);
+                    margin-top: 0.8rem;
+                    border-radius: 0.4rem;
+                }
+            }
+            .bg{
+                background: #f0f9fe;
+                border-bottom: 0.2rem solid #ebf4fb;
+                padding: 0 0.7rem 0 1.4rem;
+            }
+            p{
+                .whb(100%,4rem,0);
+                padding: 0 0.7rem 0 1.4rem;
+                font-size: 1.4rem;
+                line-height: 4rem;
+                .r;
+                i{
+                   font-style: normal; 
+                   margin-right: 2.8rem;
+                }
+                span{
+                    img{
+                        .whb(2rem,auto,0);
+                        .a;
+                        top: 1.2rem;
+                    }
+                    a{
+                        margin-left: 3rem;
+                    }
+                }
+                b{
+                    .a;
+                    right: 0.7rem;
+                    font-family: "微软雅黑";
+                }
+            }
+        }
+    }
+    footer{
+        .whb(100%,4.2rem,#f7f7f7);
+        border-top: 0.2rem solid #f2f2f2;
+        .box(horizontal);
+        .left{
+            .whb(7.2rem,100%,0);
+            img{
+                margin-top: 1.2rem;
+                margin-left: 1.8rem;
+            }
+            .one{
+                .whb(1rem,auto,0);
+            }
+            .two{
+                .whb(1.8rem,auto,0);
+            }
+        }
+        .center{
+            -webkit-box-flex: 1;
+            padding: 0 1.6rem;
+            line-height: 4.2rem;
+            input{
+                .whb(100%,3.2rem,0);
+                background: url(../img/images/1_46.jpg) 0.8rem center no-repeat;
+                background-size: 1rem;
+                border: 0.1rem solid #d5d5d5;
+                padding-left: 2.2rem;
+                text-align: center;
+            }
+        }
+        .right{
+            .whb(8rem,100%,0);
+            img{
+                margin-top: 1.2rem;
+                margin-right: 1.8rem;
+                .whb(1.8rem,auto,0);
+            }
+        }
+    }
+}

@@ -1,0 +1,286 @@
+@import url(reset.css);
+html,
+body,
+.box {
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+html {
+  font-size: 62.5%;
+}
+.r {
+  position: relative;
+}
+.a {
+  position: absolute;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  height: 100%;
+  background: 0;
+}
+.wrap header {
+  width: 100%;
+  height: 5.2rem;
+  background: #fbfbfb;
+  padding: 0 1.4rem;
+}
+.wrap header input {
+  width: 100%;
+  height: 3.8rem;
+  background: #ffffff;
+  margin-top: 0.8rem;
+  position: relative;
+  padding-left: 3.8rem;
+  border: 0.1rem solid #d5d5d5;
+  text-align: center;
+}
+.wrap header img {
+  width: 1.6rem;
+  height: auto;
+  background: 0;
+}
+.wrap header .left {
+  position: absolute;
+  left: 2.6rem;
+  top: 1.9rem;
+}
+.wrap header .right {
+  position: absolute;
+  right: 2.6rem;
+  top: 1.9rem;
+}
+.wrap header .right img {
+  width: 1.8rem;
+  height: auto;
+  background: 0;
+}
+.wrap section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.wrap section .top {
+  width: 100%;
+  height: 15.2rem;
+  background: #1e95f3;
+  padding: 0 1rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  color: #fff;
+}
+.wrap section .top .left {
+  width: 9.4rem;
+  height: 100%;
+  background: 0;
+}
+.wrap section .top .left h1 {
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+}
+.wrap section .top .left dl {
+  margin-top: 2rem;
+}
+.wrap section .top .left dl dt img {
+  width: 5.4rem;
+  height: auto;
+  background: 0;
+}
+.wrap section .top .left dl dd {
+  position: relative;
+  margin-top: 2rem;
+  width: 100%;
+  height: 2rem;
+  background: #49abf6;
+  line-height: 2rem;
+}
+.wrap section .top .left dl dd img {
+  width: 1.4rem;
+  height: auto;
+  background: 0;
+  position: absolute;
+  top: 0.4rem;
+  left: 0.4rem;
+}
+.wrap section .top .left dl dd b {
+  font-weight: normal;
+  margin-left: 2.4rem;
+  font-size: 1.4rem;
+}
+.wrap section .top .right {
+  -webkit-box-flex: 1;
+  margin-left: 0.8rem;
+}
+.wrap section .top .right h2 {
+  width: 100%;
+  height: 1.8rem;
+  background: 0;
+  margin-top: 1.6rem;
+}
+.wrap section .top .right h2 b {
+  float: right;
+  font-weight: normal;
+  font-size: 1.8rem;
+}
+.wrap section .top .right h1 {
+  width: 100%;
+  height: 2rem;
+  background: 0;
+  font-family: "微软雅黑";
+}
+.wrap section .top .right h1 b {
+  float: right;
+  font-weight: normal;
+  font-size: 2rem;
+}
+.wrap section .top .right h3 {
+  width: 100%;
+  height: auto;
+  background: 0;
+  font-family: "微软雅黑";
+  line-height: 2.4rem;
+  position: relative;
+}
+.wrap section .top .right h3 .one {
+  position: absolute;
+  right: 0;
+}
+.wrap section .top .right h3 b {
+  float: right;
+  font-weight: normal;
+  font-size: 1.4rem;
+}
+.wrap section .top .right p {
+  width: 100%;
+  height: 2rem;
+  background: #49abf6;
+  float: right;
+  margin-top: 2.6rem;
+  line-height: 2rem;
+  padding: 0 0.2rem;
+  position: relative;
+}
+.wrap section .top .right p img {
+  width: 1.4rem;
+  height: auto;
+  background: 0;
+  position: absolute;
+  top: 0.4rem;
+}
+.wrap section .top .right p b {
+  font-weight: normal;
+  margin-left: 1.4rem;
+}
+.wrap section .cont {
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.wrap section .cont h1 {
+  width: 100%;
+  height: 4rem;
+  background: 0;
+  padding: 0 0.7rem 0 1.4rem;
+  line-height: 4rem;
+  font-size: 1.4rem;
+  border-bottom: 0.2rem solid #ebf4fb;
+}
+.wrap section .cont h1 button {
+  width: 7.2rem;
+  height: 2.4rem;
+  background: 0;
+  border: 0.1rem solid #8fc4f0;
+  color: #70a8d9;
+  float: right;
+  margin-top: 0.8rem;
+  border-radius: 0.4rem;
+}
+.wrap section .cont .bg {
+  background: #f0f9fe;
+  border-bottom: 0.2rem solid #ebf4fb;
+  padding: 0 0.7rem 0 1.4rem;
+}
+.wrap section .cont p {
+  width: 100%;
+  height: 4rem;
+  background: 0;
+  padding: 0 0.7rem 0 1.4rem;
+  font-size: 1.4rem;
+  line-height: 4rem;
+  position: relative;
+}
+.wrap section .cont p i {
+  font-style: normal;
+  margin-right: 2.8rem;
+}
+.wrap section .cont p span img {
+  width: 2rem;
+  height: auto;
+  background: 0;
+  position: absolute;
+  top: 1.2rem;
+}
+.wrap section .cont p span a {
+  margin-left: 3rem;
+}
+.wrap section .cont p b {
+  position: absolute;
+  right: 0.7rem;
+  font-family: "微软雅黑";
+}
+.wrap footer {
+  width: 100%;
+  height: 4.2rem;
+  background: #f7f7f7;
+  border-top: 0.2rem solid #f2f2f2;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap footer .left {
+  width: 7.2rem;
+  height: 100%;
+  background: 0;
+}
+.wrap footer .left img {
+  margin-top: 1.2rem;
+  margin-left: 1.8rem;
+}
+.wrap footer .left .one {
+  width: 1rem;
+  height: auto;
+  background: 0;
+}
+.wrap footer .left .two {
+  width: 1.8rem;
+  height: auto;
+  background: 0;
+}
+.wrap footer .center {
+  -webkit-box-flex: 1;
+  padding: 0 1.6rem;
+  line-height: 4.2rem;
+}
+.wrap footer .center input {
+  width: 100%;
+  height: 3.2rem;
+  background: 0;
+  background: url(../img/images/1_46.jpg) 0.8rem center no-repeat;
+  background-size: 1rem;
+  border: 0.1rem solid #d5d5d5;
+  padding-left: 2.2rem;
+  text-align: center;
+}
+.wrap footer .right {
+  width: 8rem;
+  height: 100%;
+  background: 0;
+}
+.wrap footer .right img {
+  margin-top: 1.2rem;
+  margin-right: 1.8rem;
+  width: 1.8rem;
+  height: auto;
+  background: 0;
+}
